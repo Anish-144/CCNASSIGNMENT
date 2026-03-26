@@ -1,0 +1,844 @@
+===== Seattle → Palo Alto =====
+P1: Cost = 800 | Path = Seattle -> Palo Alto
+P2: Cost = 2100 | Path = Seattle -> Salt Lake City -> San Diego -> Palo Alto
+
+===== Seattle → San Diego =====
+P1: Cost = 1300 | Path = Seattle -> Palo Alto -> San Diego
+P2: Cost = 1600 | Path = Seattle -> Salt Lake City -> San Diego
+
+===== Seattle → Salt Lake City =====
+P1: Cost = 850 | Path = Seattle -> Salt Lake City
+P2: Cost = 2050 | Path = Seattle -> Palo Alto -> San Diego -> Salt Lake City
+
+===== Seattle → Boulder =====
+P1: Cost = 1350 | Path = Seattle -> Salt Lake City -> Boulder
+P2: Cost = 4050 | Path = Seattle -> Palo Alto -> San Diego -> Houston -> Lincoln -> Boulder
+
+===== Seattle → Lincoln =====
+P1: Cost = 1900 | Path = Seattle -> Salt Lake City -> Boulder -> Lincoln
+P2: Cost = 3500 | Path = Seattle -> Palo Alto -> San Diego -> Houston -> Lincoln
+
+===== Seattle → Houston =====
+P1: Cost = 2700 | Path = Seattle -> Palo Alto -> San Diego -> Houston
+P2: Cost = 2700 | Path = Seattle -> Salt Lake City -> Boulder -> Lincoln -> Houston
+
+===== Seattle → Atlanta =====
+P1: Cost = 3550 | Path = Seattle -> Palo Alto -> San Diego -> Houston -> Atlanta
+P2: Cost = 3850 | Path = Seattle -> Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> Washington DC -> Atlanta
+
+===== Seattle → Chicago =====
+P1: Cost = 2500 | Path = Seattle -> Salt Lake City -> Boulder -> Lincoln -> Chicago
+P2: Cost = 3000 | Path = Seattle -> Palo Alto -> Chicago
+
+===== Seattle → Ann Arbor =====
+P1: Cost = 2450 | Path = Seattle -> Salt Lake City -> Boulder -> Ann Arbor
+P2: Cost = 3250 | Path = Seattle -> Palo Alto -> Chicago -> Ann Arbor
+
+===== Seattle → Pittsburgh =====
+P1: Cost = 3450 | Path = Seattle -> Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> Washington DC -> Pittsburgh
+P2: Cost = 4250 | Path = Seattle -> Palo Alto -> San Diego -> Houston -> Atlanta -> Pittsburgh
+
+===== Seattle → New York =====
+P1: Cost = 3150 | Path = Seattle -> Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> New York
+P2: Cost = 3800 | Path = Seattle -> Palo Alto -> Chicago -> New York
+
+===== Seattle → Washington DC =====
+P1: Cost = 3200 | Path = Seattle -> Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> Washington DC
+P2: Cost = 4050 | Path = Seattle -> Palo Alto -> Chicago -> New York -> Washington DC
+
+===== Seattle → Princeton =====
+P1: Cost = 3050 | Path = Seattle -> Salt Lake City -> Boulder -> Ann Arbor -> Princeton
+P2: Cost = 3900 | Path = Seattle -> Palo Alto -> Chicago -> New York -> Princeton
+
+===== Palo Alto → Seattle =====
+P1: Cost = 800 | Path = Palo Alto -> Seattle
+P2: Cost = 2100 | Path = Palo Alto -> San Diego -> Salt Lake City -> Seattle
+
+===== Palo Alto → San Diego =====
+P1: Cost = 500 | Path = Palo Alto -> San Diego
+P2: Cost = 2400 | Path = Palo Alto -> Seattle -> Salt Lake City -> San Diego
+P3: Cost = 5000 | Path = Palo Alto -> Chicago -> Lincoln -> Houston -> San Diego
+
+===== Palo Alto → Salt Lake City =====
+P1: Cost = 1250 | Path = Palo Alto -> San Diego -> Salt Lake City
+P2: Cost = 1650 | Path = Palo Alto -> Seattle -> Salt Lake City
+P3: Cost = 3850 | Path = Palo Alto -> Chicago -> Lincoln -> Boulder -> Salt Lake City
+
+===== Palo Alto → Boulder =====
+P1: Cost = 1750 | Path = Palo Alto -> San Diego -> Salt Lake City -> Boulder
+P2: Cost = 3350 | Path = Palo Alto -> Chicago -> Lincoln -> Boulder
+
+===== Palo Alto → Lincoln =====
+P1: Cost = 2300 | Path = Palo Alto -> San Diego -> Salt Lake City -> Boulder -> Lincoln
+P2: Cost = 2800 | Path = Palo Alto -> Chicago -> Lincoln
+
+===== Palo Alto → Houston =====
+P1: Cost = 1900 | Path = Palo Alto -> San Diego -> Houston
+P2: Cost = 3500 | Path = Palo Alto -> Seattle -> Salt Lake City -> Boulder -> Lincoln -> Houston
+P3: Cost = 4700 | Path = Palo Alto -> Chicago -> Ann Arbor -> Princeton -> Washington DC -> Atlanta -> Houston
+
+===== Palo Alto → Atlanta =====
+P1: Cost = 2750 | Path = Palo Alto -> San Diego -> Houston -> Atlanta
+P2: Cost = 3850 | Path = Palo Alto -> Chicago -> Ann Arbor -> Princeton -> Washington DC -> Atlanta
+P3: Cost = 5300 | Path = Palo Alto -> Seattle -> Salt Lake City -> Boulder -> Lincoln -> Chicago -> New York -> Washington DC -> Pittsburgh -> Atlanta
+
+===== Palo Alto → Chicago =====
+P1: Cost = 2200 | Path = Palo Alto -> Chicago
+P2: Cost = 2900 | Path = Palo Alto -> San Diego -> Salt Lake City -> Boulder -> Lincoln -> Chicago
+
+===== Palo Alto → Ann Arbor =====
+P1: Cost = 2450 | Path = Palo Alto -> Chicago -> Ann Arbor
+P2: Cost = 2850 | Path = Palo Alto -> San Diego -> Salt Lake City -> Boulder -> Ann Arbor
+
+===== Palo Alto → Pittsburgh =====
+P1: Cost = 3450 | Path = Palo Alto -> San Diego -> Houston -> Atlanta -> Pittsburgh
+P2: Cost = 3450 | Path = Palo Alto -> Chicago -> Ann Arbor -> Princeton -> Washington DC -> Pittsburgh
+
+===== Palo Alto → New York =====
+P1: Cost = 3000 | Path = Palo Alto -> Chicago -> New York
+P2: Cost = 3550 | Path = Palo Alto -> San Diego -> Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> New York
+
+===== Palo Alto → Washington DC =====
+P1: Cost = 3200 | Path = Palo Alto -> Chicago -> Ann Arbor -> Princeton -> Washington DC
+P2: Cost = 3400 | Path = Palo Alto -> San Diego -> Houston -> Atlanta -> Washington DC
+P3: Cost = 4350 | Path = Palo Alto -> Seattle -> Salt Lake City -> Boulder -> Lincoln -> Chicago -> New York -> Washington DC
+
+===== Palo Alto → Princeton =====
+P1: Cost = 3050 | Path = Palo Alto -> Chicago -> Ann Arbor -> Princeton
+P2: Cost = 3550 | Path = Palo Alto -> San Diego -> Houston -> Atlanta -> Washington DC -> Princeton
+P3: Cost = 4200 | Path = Palo Alto -> Seattle -> Salt Lake City -> Boulder -> Lincoln -> Chicago -> New York -> Princeton
+
+===== San Diego → Seattle =====
+P1: Cost = 1300 | Path = San Diego -> Palo Alto -> Seattle
+P2: Cost = 1600 | Path = San Diego -> Salt Lake City -> Seattle
+
+===== San Diego → Palo Alto =====
+P1: Cost = 500 | Path = San Diego -> Palo Alto
+P2: Cost = 2400 | Path = San Diego -> Salt Lake City -> Seattle -> Palo Alto
+P3: Cost = 5000 | Path = San Diego -> Houston -> Lincoln -> Chicago -> Palo Alto
+
+===== San Diego → Salt Lake City =====
+P1: Cost = 750 | Path = San Diego -> Salt Lake City
+P2: Cost = 2150 | Path = San Diego -> Palo Alto -> Seattle -> Salt Lake City
+P3: Cost = 3250 | Path = San Diego -> Houston -> Lincoln -> Boulder -> Salt Lake City
+
+===== San Diego → Boulder =====
+P1: Cost = 1250 | Path = San Diego -> Salt Lake City -> Boulder
+P2: Cost = 2750 | Path = San Diego -> Houston -> Lincoln -> Boulder
+P3: Cost = 4050 | Path = San Diego -> Palo Alto -> Chicago -> Ann Arbor -> Boulder
+
+===== San Diego → Lincoln =====
+P1: Cost = 1800 | Path = San Diego -> Salt Lake City -> Boulder -> Lincoln
+P2: Cost = 2200 | Path = San Diego -> Houston -> Lincoln
+P3: Cost = 3300 | Path = San Diego -> Palo Alto -> Chicago -> Lincoln
+
+===== San Diego → Houston =====
+P1: Cost = 1400 | Path = San Diego -> Houston
+P2: Cost = 2600 | Path = San Diego -> Salt Lake City -> Boulder -> Lincoln -> Houston
+P3: Cost = 5200 | Path = San Diego -> Palo Alto -> Chicago -> Ann Arbor -> Princeton -> Washington DC -> Atlanta -> Houston
+
+===== San Diego → Atlanta =====
+P1: Cost = 2250 | Path = San Diego -> Houston -> Atlanta
+P2: Cost = 3750 | Path = San Diego -> Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> Washington DC -> Atlanta
+P3: Cost = 4700 | Path = San Diego -> Palo Alto -> Chicago -> New York -> Washington DC -> Pittsburgh -> Atlanta
+
+===== San Diego → Chicago =====
+P1: Cost = 2400 | Path = San Diego -> Salt Lake City -> Boulder -> Lincoln -> Chicago
+P2: Cost = 2700 | Path = San Diego -> Palo Alto -> Chicago
+P3: Cost = 3900 | Path = San Diego -> Houston -> Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Chicago
+
+===== San Diego → Ann Arbor =====
+P1: Cost = 2350 | Path = San Diego -> Salt Lake City -> Boulder -> Ann Arbor
+P2: Cost = 2950 | Path = San Diego -> Palo Alto -> Chicago -> Ann Arbor
+P3: Cost = 3650 | Path = San Diego -> Houston -> Atlanta -> Washington DC -> Princeton -> Ann Arbor
+
+===== San Diego → Pittsburgh =====
+P1: Cost = 2950 | Path = San Diego -> Houston -> Atlanta -> Pittsburgh
+P2: Cost = 3350 | Path = San Diego -> Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> Washington DC -> Pittsburgh
+
+===== San Diego → New York =====
+P1: Cost = 3050 | Path = San Diego -> Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> New York
+P2: Cost = 3150 | Path = San Diego -> Houston -> Atlanta -> Washington DC -> New York
+P3: Cost = 3500 | Path = San Diego -> Palo Alto -> Chicago -> New York
+
+===== San Diego → Washington DC =====
+P1: Cost = 2900 | Path = San Diego -> Houston -> Atlanta -> Washington DC
+P2: Cost = 3100 | Path = San Diego -> Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> Washington DC
+P3: Cost = 3750 | Path = San Diego -> Palo Alto -> Chicago -> New York -> Washington DC
+
+===== San Diego → Princeton =====
+P1: Cost = 2950 | Path = San Diego -> Salt Lake City -> Boulder -> Ann Arbor -> Princeton
+P2: Cost = 3050 | Path = San Diego -> Houston -> Atlanta -> Washington DC -> Princeton
+P3: Cost = 3600 | Path = San Diego -> Palo Alto -> Chicago -> New York -> Princeton
+
+===== Salt Lake City → Seattle =====
+P1: Cost = 850 | Path = Salt Lake City -> Seattle
+P2: Cost = 2050 | Path = Salt Lake City -> San Diego -> Palo Alto -> Seattle
+
+===== Salt Lake City → Palo Alto =====
+P1: Cost = 1250 | Path = Salt Lake City -> San Diego -> Palo Alto
+P2: Cost = 1650 | Path = Salt Lake City -> Seattle -> Palo Alto
+P3: Cost = 3850 | Path = Salt Lake City -> Boulder -> Lincoln -> Chicago -> Palo Alto
+
+===== Salt Lake City → San Diego =====
+P1: Cost = 750 | Path = Salt Lake City -> San Diego
+P2: Cost = 2150 | Path = Salt Lake City -> Seattle -> Palo Alto -> San Diego
+P3: Cost = 3250 | Path = Salt Lake City -> Boulder -> Lincoln -> Houston -> San Diego
+
+===== Salt Lake City → Boulder =====
+P1: Cost = 500 | Path = Salt Lake City -> Boulder
+P2: Cost = 3500 | Path = Salt Lake City -> San Diego -> Houston -> Lincoln -> Boulder
+P3: Cost = 5200 | Path = Salt Lake City -> Seattle -> Palo Alto -> Chicago -> Ann Arbor -> Boulder
+
+===== Salt Lake City → Lincoln =====
+P1: Cost = 1050 | Path = Salt Lake City -> Boulder -> Lincoln
+P2: Cost = 2950 | Path = Salt Lake City -> San Diego -> Houston -> Lincoln
+P3: Cost = 4450 | Path = Salt Lake City -> Seattle -> Palo Alto -> Chicago -> Lincoln
+
+===== Salt Lake City → Houston =====
+P1: Cost = 1850 | Path = Salt Lake City -> Boulder -> Lincoln -> Houston
+P2: Cost = 2150 | Path = Salt Lake City -> San Diego -> Houston
+P3: Cost = 6350 | Path = Salt Lake City -> Seattle -> Palo Alto -> Chicago -> Ann Arbor -> Princeton -> Washington DC -> Atlanta -> Houston
+
+===== Salt Lake City → Atlanta =====
+P1: Cost = 2700 | Path = Salt Lake City -> Boulder -> Lincoln -> Houston -> Atlanta
+P2: Cost = 5100 | Path = Salt Lake City -> San Diego -> Palo Alto -> Chicago -> Ann Arbor -> Princeton -> Washington DC -> Atlanta
+
+===== Salt Lake City → Chicago =====
+P1: Cost = 1650 | Path = Salt Lake City -> Boulder -> Lincoln -> Chicago
+P2: Cost = 3450 | Path = Salt Lake City -> San Diego -> Palo Alto -> Chicago
+
+===== Salt Lake City → Ann Arbor =====
+P1: Cost = 1600 | Path = Salt Lake City -> Boulder -> Ann Arbor
+P2: Cost = 3700 | Path = Salt Lake City -> San Diego -> Palo Alto -> Chicago -> Ann Arbor
+
+===== Salt Lake City → Pittsburgh =====
+P1: Cost = 2600 | Path = Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> Washington DC -> Pittsburgh
+P2: Cost = 3700 | Path = Salt Lake City -> San Diego -> Houston -> Atlanta -> Pittsburgh
+
+===== Salt Lake City → New York =====
+P1: Cost = 2300 | Path = Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> New York
+P2: Cost = 3900 | Path = Salt Lake City -> San Diego -> Houston -> Atlanta -> Washington DC -> New York
+P3: Cost = 4650 | Path = Salt Lake City -> Seattle -> Palo Alto -> Chicago -> New York
+
+===== Salt Lake City → Washington DC =====
+P1: Cost = 2350 | Path = Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> Washington DC
+P2: Cost = 3650 | Path = Salt Lake City -> San Diego -> Houston -> Atlanta -> Washington DC
+P3: Cost = 4900 | Path = Salt Lake City -> Seattle -> Palo Alto -> Chicago -> New York -> Washington DC
+
+===== Salt Lake City → Princeton =====
+P1: Cost = 2200 | Path = Salt Lake City -> Boulder -> Ann Arbor -> Princeton
+P2: Cost = 3800 | Path = Salt Lake City -> San Diego -> Houston -> Atlanta -> Washington DC -> Princeton
+P3: Cost = 4750 | Path = Salt Lake City -> Seattle -> Palo Alto -> Chicago -> New York -> Princeton
+
+===== Boulder → Seattle =====
+P1: Cost = 1350 | Path = Boulder -> Salt Lake City -> Seattle
+P2: Cost = 4050 | Path = Boulder -> Lincoln -> Houston -> San Diego -> Palo Alto -> Seattle
+
+===== Boulder → Palo Alto =====
+P1: Cost = 1750 | Path = Boulder -> Salt Lake City -> San Diego -> Palo Alto
+P2: Cost = 3350 | Path = Boulder -> Lincoln -> Chicago -> Palo Alto
+
+===== Boulder → San Diego =====
+P1: Cost = 1250 | Path = Boulder -> Salt Lake City -> San Diego
+P2: Cost = 2750 | Path = Boulder -> Lincoln -> Houston -> San Diego
+P3: Cost = 4050 | Path = Boulder -> Ann Arbor -> Chicago -> Palo Alto -> San Diego
+
+===== Boulder → Salt Lake City =====
+P1: Cost = 500 | Path = Boulder -> Salt Lake City
+P2: Cost = 3500 | Path = Boulder -> Lincoln -> Houston -> San Diego -> Salt Lake City
+P3: Cost = 5200 | Path = Boulder -> Ann Arbor -> Chicago -> Palo Alto -> Seattle -> Salt Lake City
+
+===== Boulder → Lincoln =====
+P1: Cost = 550 | Path = Boulder -> Lincoln
+P2: Cost = 1950 | Path = Boulder -> Ann Arbor -> Chicago -> Lincoln
+P3: Cost = 3450 | Path = Boulder -> Salt Lake City -> San Diego -> Houston -> Lincoln
+
+===== Boulder → Houston =====
+P1: Cost = 1350 | Path = Boulder -> Lincoln -> Houston
+P2: Cost = 2650 | Path = Boulder -> Salt Lake City -> San Diego -> Houston
+P3: Cost = 3350 | Path = Boulder -> Ann Arbor -> Princeton -> Washington DC -> Atlanta -> Houston
+
+===== Boulder → Atlanta =====
+P1: Cost = 2200 | Path = Boulder -> Lincoln -> Houston -> Atlanta
+P2: Cost = 2500 | Path = Boulder -> Ann Arbor -> Princeton -> Washington DC -> Atlanta
+P3: Cost = 5950 | Path = Boulder -> Salt Lake City -> San Diego -> Palo Alto -> Chicago -> New York -> Washington DC -> Pittsburgh -> Atlanta
+
+===== Boulder → Chicago =====
+P1: Cost = 1150 | Path = Boulder -> Lincoln -> Chicago
+P2: Cost = 1350 | Path = Boulder -> Ann Arbor -> Chicago
+P3: Cost = 3950 | Path = Boulder -> Salt Lake City -> San Diego -> Palo Alto -> Chicago
+
+===== Boulder → Ann Arbor =====
+P1: Cost = 1100 | Path = Boulder -> Ann Arbor
+P2: Cost = 1400 | Path = Boulder -> Lincoln -> Chicago -> Ann Arbor
+P3: Cost = 4900 | Path = Boulder -> Salt Lake City -> San Diego -> Houston -> Atlanta -> Washington DC -> Princeton -> Ann Arbor
+
+===== Boulder → Pittsburgh =====
+P1: Cost = 2100 | Path = Boulder -> Ann Arbor -> Princeton -> Washington DC -> Pittsburgh
+P2: Cost = 2900 | Path = Boulder -> Lincoln -> Houston -> Atlanta -> Pittsburgh
+
+===== Boulder → New York =====
+P1: Cost = 1800 | Path = Boulder -> Ann Arbor -> Princeton -> New York
+P2: Cost = 1950 | Path = Boulder -> Lincoln -> Chicago -> New York
+P3: Cost = 4400 | Path = Boulder -> Salt Lake City -> San Diego -> Houston -> Atlanta -> Washington DC -> New York
+
+===== Boulder → Washington DC =====
+P1: Cost = 1850 | Path = Boulder -> Ann Arbor -> Princeton -> Washington DC
+P2: Cost = 2200 | Path = Boulder -> Lincoln -> Chicago -> New York -> Washington DC
+P3: Cost = 4150 | Path = Boulder -> Salt Lake City -> San Diego -> Houston -> Atlanta -> Washington DC
+
+===== Boulder → Princeton =====
+P1: Cost = 1700 | Path = Boulder -> Ann Arbor -> Princeton
+P2: Cost = 2050 | Path = Boulder -> Lincoln -> Chicago -> New York -> Princeton
+P3: Cost = 4300 | Path = Boulder -> Salt Lake City -> San Diego -> Houston -> Atlanta -> Washington DC -> Princeton
+
+===== Lincoln → Seattle =====
+P1: Cost = 1900 | Path = Lincoln -> Boulder -> Salt Lake City -> Seattle
+P2: Cost = 3500 | Path = Lincoln -> Houston -> San Diego -> Palo Alto -> Seattle
+
+===== Lincoln → Palo Alto =====
+P1: Cost = 2300 | Path = Lincoln -> Boulder -> Salt Lake City -> San Diego -> Palo Alto
+P2: Cost = 2800 | Path = Lincoln -> Chicago -> Palo Alto
+
+===== Lincoln → San Diego =====
+P1: Cost = 1800 | Path = Lincoln -> Boulder -> Salt Lake City -> San Diego
+P2: Cost = 2200 | Path = Lincoln -> Houston -> San Diego
+P3: Cost = 3300 | Path = Lincoln -> Chicago -> Palo Alto -> San Diego
+
+===== Lincoln → Salt Lake City =====
+P1: Cost = 1050 | Path = Lincoln -> Boulder -> Salt Lake City
+P2: Cost = 2950 | Path = Lincoln -> Houston -> San Diego -> Salt Lake City
+P3: Cost = 4450 | Path = Lincoln -> Chicago -> Palo Alto -> Seattle -> Salt Lake City
+
+===== Lincoln → Boulder =====
+P1: Cost = 550 | Path = Lincoln -> Boulder
+P2: Cost = 1950 | Path = Lincoln -> Chicago -> Ann Arbor -> Boulder
+P3: Cost = 3450 | Path = Lincoln -> Houston -> San Diego -> Salt Lake City -> Boulder
+
+===== Lincoln → Houston =====
+P1: Cost = 800 | Path = Lincoln -> Houston
+P2: Cost = 3100 | Path = Lincoln -> Chicago -> Ann Arbor -> Princeton -> Washington DC -> Atlanta -> Houston
+P3: Cost = 3200 | Path = Lincoln -> Boulder -> Salt Lake City -> San Diego -> Houston
+
+===== Lincoln → Atlanta =====
+P1: Cost = 1650 | Path = Lincoln -> Houston -> Atlanta
+P2: Cost = 2250 | Path = Lincoln -> Chicago -> Ann Arbor -> Princeton -> Washington DC -> Atlanta
+P3: Cost = 6500 | Path = Lincoln -> Boulder -> Salt Lake City -> San Diego -> Palo Alto -> Chicago -> New York -> Washington DC -> Pittsburgh -> Atlanta
+
+===== Lincoln → Chicago =====
+P1: Cost = 600 | Path = Lincoln -> Chicago
+P2: Cost = 1900 | Path = Lincoln -> Boulder -> Ann Arbor -> Chicago
+P3: Cost = 3350 | Path = Lincoln -> Houston -> Atlanta -> Washington DC -> New York -> Chicago
+
+===== Lincoln → Ann Arbor =====
+P1: Cost = 850 | Path = Lincoln -> Chicago -> Ann Arbor
+P2: Cost = 1650 | Path = Lincoln -> Boulder -> Ann Arbor
+P3: Cost = 3050 | Path = Lincoln -> Houston -> Atlanta -> Washington DC -> Princeton -> Ann Arbor
+
+===== Lincoln → Pittsburgh =====
+P1: Cost = 1850 | Path = Lincoln -> Chicago -> Ann Arbor -> Princeton -> Washington DC -> Pittsburgh
+P2: Cost = 2350 | Path = Lincoln -> Houston -> Atlanta -> Pittsburgh
+
+===== Lincoln → New York =====
+P1: Cost = 1400 | Path = Lincoln -> Chicago -> New York
+P2: Cost = 2350 | Path = Lincoln -> Boulder -> Ann Arbor -> Princeton -> New York
+P3: Cost = 2550 | Path = Lincoln -> Houston -> Atlanta -> Washington DC -> New York
+
+===== Lincoln → Washington DC =====
+P1: Cost = 1600 | Path = Lincoln -> Chicago -> Ann Arbor -> Princeton -> Washington DC
+P2: Cost = 2300 | Path = Lincoln -> Houston -> Atlanta -> Washington DC
+P3: Cost = 5550 | Path = Lincoln -> Boulder -> Salt Lake City -> San Diego -> Palo Alto -> Chicago -> New York -> Washington DC
+
+===== Lincoln → Princeton =====
+P1: Cost = 1450 | Path = Lincoln -> Chicago -> Ann Arbor -> Princeton
+P2: Cost = 2450 | Path = Lincoln -> Houston -> Atlanta -> Washington DC -> Princeton
+P3: Cost = 5400 | Path = Lincoln -> Boulder -> Salt Lake City -> San Diego -> Palo Alto -> Chicago -> New York -> Princeton
+
+===== Houston → Seattle =====
+P1: Cost = 2700 | Path = Houston -> Lincoln -> Boulder -> Salt Lake City -> Seattle
+P2: Cost = 2700 | Path = Houston -> San Diego -> Palo Alto -> Seattle
+
+===== Houston → Palo Alto =====
+P1: Cost = 1900 | Path = Houston -> San Diego -> Palo Alto
+P2: Cost = 3500 | Path = Houston -> Lincoln -> Boulder -> Salt Lake City -> Seattle -> Palo Alto
+P3: Cost = 4700 | Path = Houston -> Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Chicago -> Palo Alto
+
+===== Houston → San Diego =====
+P1: Cost = 1400 | Path = Houston -> San Diego
+P2: Cost = 2600 | Path = Houston -> Lincoln -> Boulder -> Salt Lake City -> San Diego
+P3: Cost = 5200 | Path = Houston -> Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Chicago -> Palo Alto -> San Diego
+
+===== Houston → Salt Lake City =====
+P1: Cost = 1850 | Path = Houston -> Lincoln -> Boulder -> Salt Lake City
+P2: Cost = 2150 | Path = Houston -> San Diego -> Salt Lake City
+P3: Cost = 6350 | Path = Houston -> Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Chicago -> Palo Alto -> Seattle -> Salt Lake City
+
+===== Houston → Boulder =====
+P1: Cost = 1350 | Path = Houston -> Lincoln -> Boulder
+P2: Cost = 2650 | Path = Houston -> San Diego -> Salt Lake City -> Boulder
+P3: Cost = 3350 | Path = Houston -> Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Boulder
+
+===== Houston → Lincoln =====
+P1: Cost = 800 | Path = Houston -> Lincoln
+P2: Cost = 3100 | Path = Houston -> Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Chicago -> Lincoln
+P3: Cost = 3200 | Path = Houston -> San Diego -> Salt Lake City -> Boulder -> Lincoln
+
+===== Houston → Atlanta =====
+P1: Cost = 850 | Path = Houston -> Atlanta
+P2: Cost = 3050 | Path = Houston -> Lincoln -> Chicago -> Ann Arbor -> Princeton -> Washington DC -> Atlanta
+P3: Cost = 6100 | Path = Houston -> San Diego -> Palo Alto -> Chicago -> New York -> Washington DC -> Pittsburgh -> Atlanta
+
+===== Houston → Chicago =====
+P1: Cost = 1400 | Path = Houston -> Lincoln -> Chicago
+P2: Cost = 2500 | Path = Houston -> Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Chicago
+P3: Cost = 4100 | Path = Houston -> San Diego -> Palo Alto -> Chicago
+
+===== Houston → Ann Arbor =====
+P1: Cost = 1650 | Path = Houston -> Lincoln -> Chicago -> Ann Arbor
+P2: Cost = 2250 | Path = Houston -> Atlanta -> Washington DC -> Princeton -> Ann Arbor
+P3: Cost = 3750 | Path = Houston -> San Diego -> Salt Lake City -> Boulder -> Ann Arbor
+
+===== Houston → Pittsburgh =====
+P1: Cost = 1550 | Path = Houston -> Atlanta -> Pittsburgh
+P2: Cost = 2650 | Path = Houston -> Lincoln -> Chicago -> Ann Arbor -> Princeton -> Washington DC -> Pittsburgh
+
+===== Houston → New York =====
+P1: Cost = 1750 | Path = Houston -> Atlanta -> Washington DC -> New York
+P2: Cost = 2200 | Path = Houston -> Lincoln -> Chicago -> New York
+P3: Cost = 4450 | Path = Houston -> San Diego -> Salt Lake City -> Boulder -> Ann Arbor -> Princeton -> New York
+
+===== Houston → Washington DC =====
+P1: Cost = 1500 | Path = Houston -> Atlanta -> Washington DC
+P2: Cost = 2400 | Path = Houston -> Lincoln -> Chicago -> Ann Arbor -> Princeton -> Washington DC
+P3: Cost = 5150 | Path = Houston -> San Diego -> Palo Alto -> Chicago -> New York -> Washington DC
+
+===== Houston → Princeton =====
+P1: Cost = 1650 | Path = Houston -> Atlanta -> Washington DC -> Princeton
+P2: Cost = 2250 | Path = Houston -> Lincoln -> Chicago -> Ann Arbor -> Princeton
+P3: Cost = 5000 | Path = Houston -> San Diego -> Palo Alto -> Chicago -> New York -> Princeton
+
+===== Atlanta → Seattle =====
+P1: Cost = 3550 | Path = Atlanta -> Houston -> Lincoln -> Boulder -> Salt Lake City -> Seattle
+P2: Cost = 4650 | Path = Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Chicago -> Palo Alto -> Seattle
+
+===== Atlanta → Palo Alto =====
+P1: Cost = 2750 | Path = Atlanta -> Houston -> San Diego -> Palo Alto
+P2: Cost = 3850 | Path = Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Chicago -> Palo Alto
+P3: Cost = 5300 | Path = Atlanta -> Pittsburgh -> Washington DC -> New York -> Chicago -> Lincoln -> Boulder -> Salt Lake City -> Seattle -> Palo Alto
+
+===== Atlanta → San Diego =====
+P1: Cost = 2250 | Path = Atlanta -> Houston -> San Diego
+P2: Cost = 3750 | Path = Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Boulder -> Salt Lake City -> San Diego
+P3: Cost = 4700 | Path = Atlanta -> Pittsburgh -> Washington DC -> New York -> Chicago -> Palo Alto -> San Diego
+
+===== Atlanta → Salt Lake City =====
+P1: Cost = 2700 | Path = Atlanta -> Houston -> Lincoln -> Boulder -> Salt Lake City
+P2: Cost = 5100 | Path = Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Chicago -> Palo Alto -> San Diego -> Salt Lake City
+
+===== Atlanta → Boulder =====
+P1: Cost = 2200 | Path = Atlanta -> Houston -> Lincoln -> Boulder
+P2: Cost = 2500 | Path = Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Boulder
+P3: Cost = 5950 | Path = Atlanta -> Pittsburgh -> Washington DC -> New York -> Chicago -> Palo Alto -> San Diego -> Salt Lake City -> Boulder
+
+===== Atlanta → Lincoln =====
+P1: Cost = 1650 | Path = Atlanta -> Houston -> Lincoln
+P2: Cost = 2250 | Path = Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Chicago -> Lincoln
+P3: Cost = 6500 | Path = Atlanta -> Pittsburgh -> Washington DC -> New York -> Chicago -> Palo Alto -> San Diego -> Salt Lake City -> Boulder -> Lincoln
+
+===== Atlanta → Houston =====
+P1: Cost = 850 | Path = Atlanta -> Houston
+P2: Cost = 3050 | Path = Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Chicago -> Lincoln -> Houston
+P3: Cost = 6100 | Path = Atlanta -> Pittsburgh -> Washington DC -> New York -> Chicago -> Palo Alto -> San Diego -> Houston
+
+===== Atlanta → Chicago =====
+P1: Cost = 1650 | Path = Atlanta -> Washington DC -> Princeton -> Ann Arbor -> Chicago
+P2: Cost = 2000 | Path = Atlanta -> Pittsburgh -> Washington DC -> New York -> Chicago
+P3: Cost = 2250 | Path = Atlanta -> Houston -> Lincoln -> Chicago
+
+===== Atlanta → Ann Arbor =====
+P1: Cost = 1400 | Path = Atlanta -> Washington DC -> Princeton -> Ann Arbor
+P2: Cost = 2250 | Path = Atlanta -> Pittsburgh -> Washington DC -> New York -> Chicago -> Ann Arbor
+P3: Cost = 3300 | Path = Atlanta -> Houston -> Lincoln -> Boulder -> Ann Arbor
+
+===== Atlanta → Pittsburgh =====
+P1: Cost = 700 | Path = Atlanta -> Pittsburgh
+P2: Cost = 900 | Path = Atlanta -> Washington DC -> Pittsburgh
+
+===== Atlanta → New York =====
+P1: Cost = 900 | Path = Atlanta -> Washington DC -> New York
+P2: Cost = 1200 | Path = Atlanta -> Pittsburgh -> Washington DC -> Princeton -> New York
+P3: Cost = 3050 | Path = Atlanta -> Houston -> Lincoln -> Chicago -> New York
+
+===== Atlanta → Washington DC =====
+P1: Cost = 650 | Path = Atlanta -> Washington DC
+P2: Cost = 950 | Path = Atlanta -> Pittsburgh -> Washington DC
+P3: Cost = 3250 | Path = Atlanta -> Houston -> Lincoln -> Chicago -> Ann Arbor -> Princeton -> Washington DC
+
+===== Atlanta → Princeton =====
+P1: Cost = 800 | Path = Atlanta -> Washington DC -> Princeton
+P2: Cost = 1300 | Path = Atlanta -> Pittsburgh -> Washington DC -> New York -> Princeton
+P3: Cost = 3100 | Path = Atlanta -> Houston -> Lincoln -> Chicago -> Ann Arbor -> Princeton
+
+===== Chicago → Seattle =====
+P1: Cost = 2500 | Path = Chicago -> Lincoln -> Boulder -> Salt Lake City -> Seattle
+P2: Cost = 3000 | Path = Chicago -> Palo Alto -> Seattle
+
+===== Chicago → Palo Alto =====
+P1: Cost = 2200 | Path = Chicago -> Palo Alto
+P2: Cost = 2900 | Path = Chicago -> Lincoln -> Boulder -> Salt Lake City -> San Diego -> Palo Alto
+
+===== Chicago → San Diego =====
+P1: Cost = 2400 | Path = Chicago -> Lincoln -> Boulder -> Salt Lake City -> San Diego
+P2: Cost = 2700 | Path = Chicago -> Palo Alto -> San Diego
+P3: Cost = 3900 | Path = Chicago -> Ann Arbor -> Princeton -> Washington DC -> Atlanta -> Houston -> San Diego
+
+===== Chicago → Salt Lake City =====
+P1: Cost = 1650 | Path = Chicago -> Lincoln -> Boulder -> Salt Lake City
+P2: Cost = 3450 | Path = Chicago -> Palo Alto -> San Diego -> Salt Lake City
+
+===== Chicago → Boulder =====
+P1: Cost = 1150 | Path = Chicago -> Lincoln -> Boulder
+P2: Cost = 1350 | Path = Chicago -> Ann Arbor -> Boulder
+P3: Cost = 3950 | Path = Chicago -> Palo Alto -> San Diego -> Salt Lake City -> Boulder
+
+===== Chicago → Lincoln =====
+P1: Cost = 600 | Path = Chicago -> Lincoln
+P2: Cost = 1900 | Path = Chicago -> Ann Arbor -> Boulder -> Lincoln
+P3: Cost = 3350 | Path = Chicago -> New York -> Washington DC -> Atlanta -> Houston -> Lincoln
+
+===== Chicago → Houston =====
+P1: Cost = 1400 | Path = Chicago -> Lincoln -> Houston
+P2: Cost = 2500 | Path = Chicago -> Ann Arbor -> Princeton -> Washington DC -> Atlanta -> Houston
+P3: Cost = 4100 | Path = Chicago -> Palo Alto -> San Diego -> Houston
+
+===== Chicago → Atlanta =====
+P1: Cost = 1650 | Path = Chicago -> Ann Arbor -> Princeton -> Washington DC -> Atlanta
+P2: Cost = 2000 | Path = Chicago -> New York -> Washington DC -> Pittsburgh -> Atlanta
+P3: Cost = 2250 | Path = Chicago -> Lincoln -> Houston -> Atlanta
+
+===== Chicago → Ann Arbor =====
+P1: Cost = 250 | Path = Chicago -> Ann Arbor
+P2: Cost = 1500 | Path = Chicago -> New York -> Princeton -> Ann Arbor
+P3: Cost = 2250 | Path = Chicago -> Lincoln -> Boulder -> Ann Arbor
+
+===== Chicago → Pittsburgh =====
+P1: Cost = 1250 | Path = Chicago -> Ann Arbor -> Princeton -> Washington DC -> Pittsburgh
+P2: Cost = 2400 | Path = Chicago -> New York -> Washington DC -> Atlanta -> Pittsburgh
+
+===== Chicago → New York =====
+P1: Cost = 800 | Path = Chicago -> New York
+P2: Cost = 950 | Path = Chicago -> Ann Arbor -> Princeton -> New York
+P3: Cost = 3150 | Path = Chicago -> Lincoln -> Houston -> Atlanta -> Washington DC -> New York
+
+===== Chicago → Washington DC =====
+P1: Cost = 1000 | Path = Chicago -> Ann Arbor -> Princeton -> Washington DC
+P2: Cost = 1050 | Path = Chicago -> New York -> Washington DC
+P3: Cost = 2900 | Path = Chicago -> Lincoln -> Houston -> Atlanta -> Washington DC
+
+===== Chicago → Princeton =====
+P1: Cost = 850 | Path = Chicago -> Ann Arbor -> Princeton
+P2: Cost = 900 | Path = Chicago -> New York -> Princeton
+P3: Cost = 3050 | Path = Chicago -> Lincoln -> Houston -> Atlanta -> Washington DC -> Princeton
+
+===== Ann Arbor → Seattle =====
+P1: Cost = 2450 | Path = Ann Arbor -> Boulder -> Salt Lake City -> Seattle
+P2: Cost = 3250 | Path = Ann Arbor -> Chicago -> Palo Alto -> Seattle
+
+===== Ann Arbor → Palo Alto =====
+P1: Cost = 2450 | Path = Ann Arbor -> Chicago -> Palo Alto
+P2: Cost = 2850 | Path = Ann Arbor -> Boulder -> Salt Lake City -> San Diego -> Palo Alto
+
+===== Ann Arbor → San Diego =====
+P1: Cost = 2350 | Path = Ann Arbor -> Boulder -> Salt Lake City -> San Diego
+P2: Cost = 2950 | Path = Ann Arbor -> Chicago -> Palo Alto -> San Diego
+P3: Cost = 3650 | Path = Ann Arbor -> Princeton -> Washington DC -> Atlanta -> Houston -> San Diego
+
+===== Ann Arbor → Salt Lake City =====
+P1: Cost = 1600 | Path = Ann Arbor -> Boulder -> Salt Lake City
+P2: Cost = 3700 | Path = Ann Arbor -> Chicago -> Palo Alto -> San Diego -> Salt Lake City
+
+===== Ann Arbor → Boulder =====
+P1: Cost = 1100 | Path = Ann Arbor -> Boulder
+P2: Cost = 1400 | Path = Ann Arbor -> Chicago -> Lincoln -> Boulder
+P3: Cost = 4900 | Path = Ann Arbor -> Princeton -> Washington DC -> Atlanta -> Houston -> San Diego -> Salt Lake City -> Boulder
+
+===== Ann Arbor → Lincoln =====
+P1: Cost = 850 | Path = Ann Arbor -> Chicago -> Lincoln
+P2: Cost = 1650 | Path = Ann Arbor -> Boulder -> Lincoln
+P3: Cost = 3050 | Path = Ann Arbor -> Princeton -> Washington DC -> Atlanta -> Houston -> Lincoln
+
+===== Ann Arbor → Houston =====
+P1: Cost = 1650 | Path = Ann Arbor -> Chicago -> Lincoln -> Houston
+P2: Cost = 2250 | Path = Ann Arbor -> Princeton -> Washington DC -> Atlanta -> Houston
+P3: Cost = 3750 | Path = Ann Arbor -> Boulder -> Salt Lake City -> San Diego -> Houston
+
+===== Ann Arbor → Atlanta =====
+P1: Cost = 1400 | Path = Ann Arbor -> Princeton -> Washington DC -> Atlanta
+P2: Cost = 2250 | Path = Ann Arbor -> Chicago -> New York -> Washington DC -> Pittsburgh -> Atlanta
+P3: Cost = 3300 | Path = Ann Arbor -> Boulder -> Lincoln -> Houston -> Atlanta
+
+===== Ann Arbor → Chicago =====
+P1: Cost = 250 | Path = Ann Arbor -> Chicago
+P2: Cost = 1500 | Path = Ann Arbor -> Princeton -> New York -> Chicago
+P3: Cost = 2250 | Path = Ann Arbor -> Boulder -> Lincoln -> Chicago
+
+===== Ann Arbor → Pittsburgh =====
+P1: Cost = 1000 | Path = Ann Arbor -> Princeton -> Washington DC -> Pittsburgh
+P2: Cost = 2650 | Path = Ann Arbor -> Chicago -> New York -> Washington DC -> Atlanta -> Pittsburgh
+
+===== Ann Arbor → New York =====
+P1: Cost = 700 | Path = Ann Arbor -> Princeton -> New York
+P2: Cost = 1050 | Path = Ann Arbor -> Chicago -> New York
+P3: Cost = 4200 | Path = Ann Arbor -> Boulder -> Lincoln -> Houston -> Atlanta -> Washington DC -> New York
+
+===== Ann Arbor → Washington DC =====
+P1: Cost = 750 | Path = Ann Arbor -> Princeton -> Washington DC
+P2: Cost = 1300 | Path = Ann Arbor -> Chicago -> New York -> Washington DC
+P3: Cost = 3950 | Path = Ann Arbor -> Boulder -> Lincoln -> Houston -> Atlanta -> Washington DC
+
+===== Ann Arbor → Princeton =====
+P1: Cost = 600 | Path = Ann Arbor -> Princeton
+P2: Cost = 1150 | Path = Ann Arbor -> Chicago -> New York -> Princeton
+P3: Cost = 4100 | Path = Ann Arbor -> Boulder -> Lincoln -> Houston -> Atlanta -> Washington DC -> Princeton
+
+===== Pittsburgh → Seattle =====
+P1: Cost = 3450 | Path = Pittsburgh -> Washington DC -> Princeton -> Ann Arbor -> Boulder -> Salt Lake City -> Seattle
+P2: Cost = 4250 | Path = Pittsburgh -> Atlanta -> Houston -> San Diego -> Palo Alto -> Seattle
+
+===== Pittsburgh → Palo Alto =====
+P1: Cost = 3450 | Path = Pittsburgh -> Washington DC -> Princeton -> Ann Arbor -> Chicago -> Palo Alto
+P2: Cost = 3450 | Path = Pittsburgh -> Atlanta -> Houston -> San Diego -> Palo Alto
+
+===== Pittsburgh → San Diego =====
+P1: Cost = 2950 | Path = Pittsburgh -> Atlanta -> Houston -> San Diego
+P2: Cost = 3350 | Path = Pittsburgh -> Washington DC -> Princeton -> Ann Arbor -> Boulder -> Salt Lake City -> San Diego
+
+===== Pittsburgh → Salt Lake City =====
+P1: Cost = 2600 | Path = Pittsburgh -> Washington DC -> Princeton -> Ann Arbor -> Boulder -> Salt Lake City
+P2: Cost = 3700 | Path = Pittsburgh -> Atlanta -> Houston -> San Diego -> Salt Lake City
+
+===== Pittsburgh → Boulder =====
+P1: Cost = 2100 | Path = Pittsburgh -> Washington DC -> Princeton -> Ann Arbor -> Boulder
+P2: Cost = 2900 | Path = Pittsburgh -> Atlanta -> Houston -> Lincoln -> Boulder
+
+===== Pittsburgh → Lincoln =====
+P1: Cost = 1850 | Path = Pittsburgh -> Washington DC -> Princeton -> Ann Arbor -> Chicago -> Lincoln
+P2: Cost = 2350 | Path = Pittsburgh -> Atlanta -> Houston -> Lincoln
+
+===== Pittsburgh → Houston =====
+P1: Cost = 1550 | Path = Pittsburgh -> Atlanta -> Houston
+P2: Cost = 2650 | Path = Pittsburgh -> Washington DC -> Princeton -> Ann Arbor -> Chicago -> Lincoln -> Houston
+
+===== Pittsburgh → Atlanta =====
+P1: Cost = 700 | Path = Pittsburgh -> Atlanta
+P2: Cost = 900 | Path = Pittsburgh -> Washington DC -> Atlanta
+
+===== Pittsburgh → Chicago =====
+P1: Cost = 1250 | Path = Pittsburgh -> Washington DC -> Princeton -> Ann Arbor -> Chicago
+P2: Cost = 2400 | Path = Pittsburgh -> Atlanta -> Washington DC -> New York -> Chicago
+
+===== Pittsburgh → Ann Arbor =====
+P1: Cost = 1000 | Path = Pittsburgh -> Washington DC -> Princeton -> Ann Arbor
+P2: Cost = 2650 | Path = Pittsburgh -> Atlanta -> Washington DC -> New York -> Chicago -> Ann Arbor
+
+===== Pittsburgh → New York =====
+P1: Cost = 500 | Path = Pittsburgh -> Washington DC -> New York
+P2: Cost = 1600 | Path = Pittsburgh -> Atlanta -> Washington DC -> Princeton -> New York
+
+===== Pittsburgh → Washington DC =====
+P1: Cost = 250 | Path = Pittsburgh -> Washington DC
+P2: Cost = 1350 | Path = Pittsburgh -> Atlanta -> Washington DC
+
+===== Pittsburgh → Princeton =====
+P1: Cost = 400 | Path = Pittsburgh -> Washington DC -> Princeton
+P2: Cost = 1700 | Path = Pittsburgh -> Atlanta -> Washington DC -> New York -> Princeton
+
+===== New York → Seattle =====
+P1: Cost = 3150 | Path = New York -> Princeton -> Ann Arbor -> Boulder -> Salt Lake City -> Seattle
+P2: Cost = 3800 | Path = New York -> Chicago -> Palo Alto -> Seattle
+
+===== New York → Palo Alto =====
+P1: Cost = 3000 | Path = New York -> Chicago -> Palo Alto
+P2: Cost = 3550 | Path = New York -> Princeton -> Ann Arbor -> Boulder -> Salt Lake City -> San Diego -> Palo Alto
+
+===== New York → San Diego =====
+P1: Cost = 3050 | Path = New York -> Princeton -> Ann Arbor -> Boulder -> Salt Lake City -> San Diego
+P2: Cost = 3150 | Path = New York -> Washington DC -> Atlanta -> Houston -> San Diego
+P3: Cost = 3500 | Path = New York -> Chicago -> Palo Alto -> San Diego
+
+===== New York → Salt Lake City =====
+P1: Cost = 2300 | Path = New York -> Princeton -> Ann Arbor -> Boulder -> Salt Lake City
+P2: Cost = 3900 | Path = New York -> Washington DC -> Atlanta -> Houston -> San Diego -> Salt Lake City
+P3: Cost = 4650 | Path = New York -> Chicago -> Palo Alto -> Seattle -> Salt Lake City
+
+===== New York → Boulder =====
+P1: Cost = 1800 | Path = New York -> Princeton -> Ann Arbor -> Boulder
+P2: Cost = 1950 | Path = New York -> Chicago -> Lincoln -> Boulder
+P3: Cost = 4400 | Path = New York -> Washington DC -> Atlanta -> Houston -> San Diego -> Salt Lake City -> Boulder
+
+===== New York → Lincoln =====
+P1: Cost = 1400 | Path = New York -> Chicago -> Lincoln
+P2: Cost = 2350 | Path = New York -> Princeton -> Ann Arbor -> Boulder -> Lincoln
+P3: Cost = 2550 | Path = New York -> Washington DC -> Atlanta -> Houston -> Lincoln
+
+===== New York → Houston =====
+P1: Cost = 1750 | Path = New York -> Washington DC -> Atlanta -> Houston
+P2: Cost = 2200 | Path = New York -> Chicago -> Lincoln -> Houston
+P3: Cost = 4450 | Path = New York -> Princeton -> Ann Arbor -> Boulder -> Salt Lake City -> San Diego -> Houston
+
+===== New York → Atlanta =====
+P1: Cost = 900 | Path = New York -> Washington DC -> Atlanta
+P2: Cost = 1200 | Path = New York -> Princeton -> Washington DC -> Pittsburgh -> Atlanta
+P3: Cost = 3050 | Path = New York -> Chicago -> Lincoln -> Houston -> Atlanta
+
+===== New York → Chicago =====
+P1: Cost = 800 | Path = New York -> Chicago
+P2: Cost = 950 | Path = New York -> Princeton -> Ann Arbor -> Chicago
+P3: Cost = 3150 | Path = New York -> Washington DC -> Atlanta -> Houston -> Lincoln -> Chicago
+
+===== New York → Ann Arbor =====
+P1: Cost = 700 | Path = New York -> Princeton -> Ann Arbor
+P2: Cost = 1050 | Path = New York -> Chicago -> Ann Arbor
+P3: Cost = 4200 | Path = New York -> Washington DC -> Atlanta -> Houston -> Lincoln -> Boulder -> Ann Arbor
+
+===== New York → Pittsburgh =====
+P1: Cost = 500 | Path = New York -> Washington DC -> Pittsburgh
+P2: Cost = 1600 | Path = New York -> Princeton -> Washington DC -> Atlanta -> Pittsburgh
+
+===== New York → Washington DC =====
+P1: Cost = 250 | Path = New York -> Washington DC
+P2: Cost = 250 | Path = New York -> Princeton -> Washington DC
+P3: Cost = 3700 | Path = New York -> Chicago -> Lincoln -> Houston -> Atlanta -> Washington DC
+
+===== New York → Princeton =====
+P1: Cost = 100 | Path = New York -> Princeton
+P2: Cost = 400 | Path = New York -> Washington DC -> Princeton
+P3: Cost = 1650 | Path = New York -> Chicago -> Ann Arbor -> Princeton
+
+===== Washington DC → Seattle =====
+P1: Cost = 3200 | Path = Washington DC -> Princeton -> Ann Arbor -> Boulder -> Salt Lake City -> Seattle
+P2: Cost = 4050 | Path = Washington DC -> New York -> Chicago -> Palo Alto -> Seattle
+
+===== Washington DC → Palo Alto =====
+P1: Cost = 3200 | Path = Washington DC -> Princeton -> Ann Arbor -> Chicago -> Palo Alto
+P2: Cost = 3400 | Path = Washington DC -> Atlanta -> Houston -> San Diego -> Palo Alto
+P3: Cost = 4350 | Path = Washington DC -> New York -> Chicago -> Lincoln -> Boulder -> Salt Lake City -> Seattle -> Palo Alto
+
+===== Washington DC → San Diego =====
+P1: Cost = 2900 | Path = Washington DC -> Atlanta -> Houston -> San Diego
+P2: Cost = 3100 | Path = Washington DC -> Princeton -> Ann Arbor -> Boulder -> Salt Lake City -> San Diego
+P3: Cost = 3750 | Path = Washington DC -> New York -> Chicago -> Palo Alto -> San Diego
+
+===== Washington DC → Salt Lake City =====
+P1: Cost = 2350 | Path = Washington DC -> Princeton -> Ann Arbor -> Boulder -> Salt Lake City
+P2: Cost = 3650 | Path = Washington DC -> Atlanta -> Houston -> San Diego -> Salt Lake City
+P3: Cost = 4900 | Path = Washington DC -> New York -> Chicago -> Palo Alto -> Seattle -> Salt Lake City
+
+===== Washington DC → Boulder =====
+P1: Cost = 1850 | Path = Washington DC -> Princeton -> Ann Arbor -> Boulder
+P2: Cost = 2200 | Path = Washington DC -> New York -> Chicago -> Lincoln -> Boulder
+P3: Cost = 4150 | Path = Washington DC -> Atlanta -> Houston -> San Diego -> Salt Lake City -> Boulder
+
+===== Washington DC → Lincoln =====
+P1: Cost = 1600 | Path = Washington DC -> Princeton -> Ann Arbor -> Chicago -> Lincoln
+P2: Cost = 2300 | Path = Washington DC -> Atlanta -> Houston -> Lincoln
+P3: Cost = 5550 | Path = Washington DC -> New York -> Chicago -> Palo Alto -> San Diego -> Salt Lake City -> Boulder -> Lincoln
+
+===== Washington DC → Houston =====
+P1: Cost = 1500 | Path = Washington DC -> Atlanta -> Houston
+P2: Cost = 2400 | Path = Washington DC -> Princeton -> Ann Arbor -> Chicago -> Lincoln -> Houston
+P3: Cost = 5150 | Path = Washington DC -> New York -> Chicago -> Palo Alto -> San Diego -> Houston
+
+===== Washington DC → Atlanta =====
+P1: Cost = 650 | Path = Washington DC -> Atlanta
+P2: Cost = 950 | Path = Washington DC -> Pittsburgh -> Atlanta
+P3: Cost = 3250 | Path = Washington DC -> Princeton -> Ann Arbor -> Chicago -> Lincoln -> Houston -> Atlanta
+
+===== Washington DC → Chicago =====
+P1: Cost = 1000 | Path = Washington DC -> Princeton -> Ann Arbor -> Chicago
+P2: Cost = 1050 | Path = Washington DC -> New York -> Chicago
+P3: Cost = 2900 | Path = Washington DC -> Atlanta -> Houston -> Lincoln -> Chicago
+
+===== Washington DC → Ann Arbor =====
+P1: Cost = 750 | Path = Washington DC -> Princeton -> Ann Arbor
+P2: Cost = 1300 | Path = Washington DC -> New York -> Chicago -> Ann Arbor
+P3: Cost = 3950 | Path = Washington DC -> Atlanta -> Houston -> Lincoln -> Boulder -> Ann Arbor
+
+===== Washington DC → Pittsburgh =====
+P1: Cost = 250 | Path = Washington DC -> Pittsburgh
+P2: Cost = 1350 | Path = Washington DC -> Atlanta -> Pittsburgh
+
+===== Washington DC → New York =====
+P1: Cost = 250 | Path = Washington DC -> New York
+P2: Cost = 250 | Path = Washington DC -> Princeton -> New York
+P3: Cost = 3700 | Path = Washington DC -> Atlanta -> Houston -> Lincoln -> Chicago -> New York
+
+===== Washington DC → Princeton =====
+P1: Cost = 150 | Path = Washington DC -> Princeton
+P2: Cost = 350 | Path = Washington DC -> New York -> Princeton
+P3: Cost = 3750 | Path = Washington DC -> Atlanta -> Houston -> Lincoln -> Chicago -> Ann Arbor -> Princeton
+
+===== Princeton → Seattle =====
+P1: Cost = 3050 | Path = Princeton -> Ann Arbor -> Boulder -> Salt Lake City -> Seattle
+P2: Cost = 3900 | Path = Princeton -> New York -> Chicago -> Palo Alto -> Seattle
+
+===== Princeton → Palo Alto =====
+P1: Cost = 3050 | Path = Princeton -> Ann Arbor -> Chicago -> Palo Alto
+P2: Cost = 3550 | Path = Princeton -> Washington DC -> Atlanta -> Houston -> San Diego -> Palo Alto
+P3: Cost = 4200 | Path = Princeton -> New York -> Chicago -> Lincoln -> Boulder -> Salt Lake City -> Seattle -> Palo Alto
+
+===== Princeton → San Diego =====
+P1: Cost = 2950 | Path = Princeton -> Ann Arbor -> Boulder -> Salt Lake City -> San Diego
+P2: Cost = 3050 | Path = Princeton -> Washington DC -> Atlanta -> Houston -> San Diego
+P3: Cost = 3600 | Path = Princeton -> New York -> Chicago -> Palo Alto -> San Diego
+
+===== Princeton → Salt Lake City =====
+P1: Cost = 2200 | Path = Princeton -> Ann Arbor -> Boulder -> Salt Lake City
+P2: Cost = 3800 | Path = Princeton -> Washington DC -> Atlanta -> Houston -> San Diego -> Salt Lake City
+P3: Cost = 4750 | Path = Princeton -> New York -> Chicago -> Palo Alto -> Seattle -> Salt Lake City
+
+===== Princeton → Boulder =====
+P1: Cost = 1700 | Path = Princeton -> Ann Arbor -> Boulder
+P2: Cost = 2050 | Path = Princeton -> New York -> Chicago -> Lincoln -> Boulder
+P3: Cost = 4300 | Path = Princeton -> Washington DC -> Atlanta -> Houston -> San Diego -> Salt Lake City -> Boulder
+
+===== Princeton → Lincoln =====
+P1: Cost = 1450 | Path = Princeton -> Ann Arbor -> Chicago -> Lincoln
+P2: Cost = 2450 | Path = Princeton -> Washington DC -> Atlanta -> Houston -> Lincoln
+P3: Cost = 5400 | Path = Princeton -> New York -> Chicago -> Palo Alto -> San Diego -> Salt Lake City -> Boulder -> Lincoln
+
+===== Princeton → Houston =====
+P1: Cost = 1650 | Path = Princeton -> Washington DC -> Atlanta -> Houston
+P2: Cost = 2250 | Path = Princeton -> Ann Arbor -> Chicago -> Lincoln -> Houston
+P3: Cost = 5000 | Path = Princeton -> New York -> Chicago -> Palo Alto -> San Diego -> Houston
+
+===== Princeton → Atlanta =====
+P1: Cost = 800 | Path = Princeton -> Washington DC -> Atlanta
+P2: Cost = 1300 | Path = Princeton -> New York -> Washington DC -> Pittsburgh -> Atlanta
+P3: Cost = 3100 | Path = Princeton -> Ann Arbor -> Chicago -> Lincoln -> Houston -> Atlanta
+
+===== Princeton → Chicago =====
+P1: Cost = 850 | Path = Princeton -> Ann Arbor -> Chicago
+P2: Cost = 900 | Path = Princeton -> New York -> Chicago
+P3: Cost = 3050 | Path = Princeton -> Washington DC -> Atlanta -> Houston -> Lincoln -> Chicago
+
+===== Princeton → Ann Arbor =====
+P1: Cost = 600 | Path = Princeton -> Ann Arbor
+P2: Cost = 1150 | Path = Princeton -> New York -> Chicago -> Ann Arbor
+P3: Cost = 4100 | Path = Princeton -> Washington DC -> Atlanta -> Houston -> Lincoln -> Boulder -> Ann Arbor
+
+===== Princeton → Pittsburgh =====
+P1: Cost = 400 | Path = Princeton -> Washington DC -> Pittsburgh
+P2: Cost = 1700 | Path = Princeton -> New York -> Washington DC -> Atlanta -> Pittsburgh
+
+===== Princeton → New York =====
+P1: Cost = 100 | Path = Princeton -> New York
+P2: Cost = 400 | Path = Princeton -> Washington DC -> New York
+P3: Cost = 1650 | Path = Princeton -> Ann Arbor -> Chicago -> New York
+
+===== Princeton → Washington DC =====
+P1: Cost = 150 | Path = Princeton -> Washington DC
+P2: Cost = 350 | Path = Princeton -> New York -> Washington DC
+P3: Cost = 3750 | Path = Princeton -> Ann Arbor -> Chicago -> Lincoln -> Houston -> Atlanta -> Washington DC
+
